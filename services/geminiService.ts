@@ -2,7 +2,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { QuestionType, GradingResult } from '../types';
 import { TOPICS } from '../topics';
 
-const API_KEY = (typeof process !== 'undefined' && process.env.API_KEY) || "";
+const API_KEY = "AIzaSyCbd31bc6eLM5QVNELLCij_JkJnECZ5LVk";
 const ai = new GoogleGenAI({ apiKey: API_KEY });
 const modelName = 'gemini-2.5-flash';
 
